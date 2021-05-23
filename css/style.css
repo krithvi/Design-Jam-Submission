@@ -1,0 +1,10 @@
+body{
+    background-color: #ED91AD;
+}
+
+nav {
+    background-color: red;
+    box-sizing: border-box;
+    display: block;
+    top: 0rem;
+}
