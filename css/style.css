@@ -5,15 +5,22 @@ body {
     width: 100%;
     height: 100%;
     background-color: #ED91AD;
+    font-family: 'Roboto', sans-serif;
 }
 
-.nav {
-    overflow: hidden;
-    top: 0rem;
+.navbar {
+    background-color: #88553D;
+    font-family: 'Fredoka One', cursive;
+    padding-left: 1rem;
+}
+
+#navbarSupportedContent {
+    justify-content: right;
 }
 
 footer {
     box-sizing: border-box;
     display: block;
-    background-color: bisque;
+    background-color: #ffe4c4;
+    padding-left: 2rem;
 }
