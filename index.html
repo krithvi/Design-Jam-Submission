@@ -32,16 +32,13 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" href="#top">Home</a>
+                    <a class="nav-link" href="#top">Home</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#menu">Menu</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#location">Locations</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#contact" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -69,7 +66,6 @@
               <button type="button" data-bs-target="#jumboCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#jumboCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <!--TODO: Add Carousel images-->
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="images/slide1.png" class="d-block w-100" alt="Donut in Pink glove">
@@ -195,9 +191,19 @@
 
         <a name="about"></a>
         <!--About section-->
-        <div class="">
-          <h1>About Us</h1>
-          <p>All you need are Donuts</p>
+        <h1>About Us</h1> <br>
+        <div id="aboutUs" class="container-fluid">
+          <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
+            <div id="aboutImg" class="col-6">
+              <img src="images/d0nut-grid.png" alt="Much Donuts" width="400" height="300">
+            </div>
+            <div class="col-6">
+              <h3>Donut Hub</h3>
+              <h5>All you need are Donuts</h5> <br>
+              <p>Established during the early Lockdown years of 21st century, we are an online store for Donuts delivered straight to your homes. <br>We really wanted donuts but couldn't find best quality donuts at affordable prices near us. So we initiated <b>"Donut Hub"</b> to fill the donut shaped void in our lives.</p>
+            </div>
+          </div>
+          
         </div>
         <!--Features grid-->
         <div id="features" class="row g-4 py-5 row-cols-1 row-cols-lg-3">
@@ -206,7 +212,7 @@
               <i class="bi bi-box-seam"></i>
             </div>
             <div>
-              <h2>Fresh Baked</h2>
+              <h3>Fresh Baked</h3>
               <p>Our donuts are made from 100% organic ingredients always.</p>
             </div>
           </div>
@@ -215,7 +221,7 @@
               <i class="bi bi-hourglass-split" style="font-size: 2rem; color: #88553d;"></i>
             </div>
             <div>
-              <h2>Fast Delivery</h2>
+              <h3>Fast Delivery</h3>
               <p>Our lightning fast delivery can satiate your cravings anytime.</p>
             </div>
           </div>
@@ -224,16 +230,11 @@
               <i class="bi bi-cash-coin" style="font-size: 2rem; color: #88553d;"></i>
             </div>
             <div>
-              <h2>Best Prices</h2>
+              <h3>Best Prices</h3>
               <p>Our delicious donuts give you the best value for your money.</p>
             </div>
           </div>
         </div>
-
-        <a name="location"></a>
-        <!--Location on map-->
-        <h1>Find Us</h1>
-        <div id="googleMap"></div>
       </div>
 
         <a name="contact"></a>
@@ -253,19 +254,6 @@
         <!--JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
         <script src="js/script.js"></script>
-
-        <!--Map JS-->
-        <script>
-          function myMap() {
-          var mapProp= {
-            center:new google.maps.LatLng(51.508742,-0.120850),
-            zoom:5,
-          };
-          var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-          }
-        </script>
-          
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXXCxHWwAMhw15QNOnjIwd6_Y4RJkgpLs&callback=myMap"></script>
 
         <!--Animation Script-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

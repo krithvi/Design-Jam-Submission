@@ -105,15 +105,24 @@ i {
     font-size: 2rem; color: #88553d;
 }
 
-#features {
-    background-color: white;
-    padding: 3rem;
+#aboutUs {
+    background-color: #F9FBFA;
+    text-align: center;
+    overflow: hidden;
 }
 
-#googleMap {
-    align-content: center;
-    width: 20rem;
-    height: 20rem;
+#aboutImg {
+    width: 25rem;
+    height: auto;
+}
+
+#aboutImg img {
+    object-fit: scale-down;
+}
+
+#features {
+    background-color: #F9FBFA;
+    padding: 3rem;
 }
 
 footer {
