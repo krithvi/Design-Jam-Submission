@@ -17,7 +17,9 @@ body {
     font-family: 'Fredoka One', cursive;
     padding-left: 1rem;
 }
-
+#jumboCarousel >.carousel-item {
+    height: 80vh;
+}
 #jumboCarousel > .carousel-indicators > li {
     border-radius: 0rem;
     min-width: 5rem;
