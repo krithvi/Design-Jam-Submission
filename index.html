@@ -115,17 +115,83 @@
 
         <a name="menu"></a>
         <h1>Menu</h1>
+        <br>
         <!--Product Menu - Grid-->
         <h2>Donuts, Donuts</h2>
-        <h5>When in doubt, order a donut</h5>
+        <h5>When in doubt, order a Bunch</h5>
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="menuGrid">
+          <div class="col">
+            <div class="card text-center">
+              <img src="images/card1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Classic Bunch</h5>
+                <p class="card-text">
+                  Assorted donuts for any occassion.<br>
+                  <a href="https://unsplash.com/photos/lQLwo7dJ2hU">Photo</a> by Brett Jordan on Unsplash
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Buy Bunch</a>
+              </div>
+              <div class="card-footer">
+                Rs. 25 per Donut
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <img src="images/card2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Rainbow Bunch</h5>
+                <p class="card-text">
+                  Donuts inspired by the Rainbow.<br>
+                  <a href="https://www.pexels.com/photo/pink-doughnut-on-white-textile-4686960/">Photo</a> by cottonbro from Pexels
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Buy Bunch</a>
+              </div>
+              <div class="card-footer">
+                Rs.230
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <img src="images/card3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pink Bunch</h5>
+                <p class="card-text">
+                  Pink Donuts for Wednesdays.<br>
+                  <a href="https://www.pexels.com/photo/six-pink-doughnuts-2064449/">Photo</a> by Karley Saagi from Pexels 
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Buy Bunch</a>
+              </div>
+              <div class="card-footer">
+                Rs. 215
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card text-center">
+              <img src="images/card4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chocolate Bunch</h5>
+                <p class="card-text">
+                  Donuts for the Chocolate lovers.<br>
+                  <a href="https://www.pexels.com/photo/food-wood-coffee-dark-7440367/">Photo</a> by Amanda Hemphill from Pexels
+                </p>
+                <a href="#" class="btn btn-lg btn-primary">Buy Bunch</a>
+              </div>
+              <div class="card-footer">
+                Rs. 210
+              </div>
+            </div>
+          </div>
+        </div>
 
-        <h2>Mini Donuts</h2>
-        <h5>Happiness does come in small packages</h5>
-
-        <!--Product Menu - Bunches-->
-        <h2>The Chocolate Bunch</h2>
-        <p>Photo by Tetiana Bykovets on Unsplash</p>
-          
+        <div class="container-fluid">
+          <div id="placeOrder" class="d-sm-flex justify-content-sm-center">
+            <button class="btn btn-primary btn-lg" type="button">Place Order</button>
+          </div>
+        </div>
+        <br>
 
         <a name="about"></a>
         <!--About section-->
@@ -141,7 +207,7 @@
             </div>
             <div>
               <h2>Fresh Baked</h2>
-              <p>Our donuts are made from 100% organic ingredients.</p>
+              <p>Our donuts are made from 100% organic ingredients always.</p>
             </div>
           </div>
           <div class="col d-flex align-items-start">
@@ -199,7 +265,7 @@
           }
         </script>
           
-        <script src="https://maps.googleapis.com/maps/api/js?key=${{secret.API_KEY_SECRET}}&callback=myMap"></script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBXXCxHWwAMhw15QNOnjIwd6_Y4RJkgpLs&callback=myMap"></script>
 
         <!--Animation Script-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

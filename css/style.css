@@ -25,6 +25,14 @@ body {
     padding-left: 1rem;
 }
 
+a {
+    color: black;
+}
+
+a:hover {
+    color: #88553D;
+}
+
 #jumboCarousel {
     margin-top: 4rem;
 }
@@ -50,9 +58,6 @@ body {
     background: rgba(255,228,196,0.7);
     padding: 2.5rem;
 }
-#jumboCarousel .carousel-caption a {
-    color: black;
-}
 
 #jumboCarousel .carousel-caption .btn {
     color: white;
@@ -74,10 +79,26 @@ body {
     padding-bottom: 3rem;
 }
 
-h1 {
-    background: none;
+h1, h2 {
+    background: rgba(255,228,196,0.3);
     text-align: center;
     font-family: 'Fredoka One', cursive;
+}
+
+h3 {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    text-decoration: wavy underline overline #ED91AD;
+}
+
+h5 {
+    text-align: center;
+}
+
+#menuGrid {
+    margin: 2rem 4rem ;
 }
 
 i {
