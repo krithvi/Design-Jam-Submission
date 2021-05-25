@@ -10,6 +10,7 @@ html {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background: none;
 }
 
 #error404 {
@@ -22,6 +23,11 @@ body {
     font-family: 'Fredoka One', cursive;
     padding-left: 1rem;
 }
+
+#jumboCarousel {
+    margin-top: 4rem;
+}
+
 #jumboCarousel >.carousel-item {
     height: 80vh;
 }
@@ -63,12 +69,20 @@ body {
 }
 
 h1 {
+    background: none;
     text-align: center;
     font-family: 'Fredoka One', cursive;
 }
 
-.icon-square {
-    box-shadow: #88553D;
+#features {
+    background-color: aliceblue;
+    padding: 3rem;
+}
+
+#googleMap {
+    align-content: center;
+    width: 20rem;
+    height: 20rem;
 }
 
 footer {
