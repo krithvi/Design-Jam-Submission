@@ -12,6 +12,11 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+#error404 {
+    text-align: center;
+    background: none;
+}
+
 .navbar {
     background-color: #88553D;
     font-family: 'Fredoka One', cursive;
