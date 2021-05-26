@@ -13,18 +13,7 @@ body {
     background: none;
 }
 
-#error404 {
-    margin-top: 6rem;
-    text-align: center;
-    background: none;
-}
-
-.navbar {
-    background-color: #88553D;
-    font-family: 'Fredoka One', cursive;
-    padding-left: 1rem;
-}
-
+/* Hyperlinks */
 a {
     color: black;
 }
@@ -33,6 +22,45 @@ a:hover {
     color: #88553D;
 }
 
+/* Headings */
+h1, h2 {
+    background: rgba(255,228,196,0.3);
+    text-align: center;
+    font-family: 'Fredoka One', cursive;
+}
+
+h3 {
+    font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+    text-decoration: wavy underline overline #ED91AD;
+}
+
+h5 {
+    text-align: center;
+}
+
+/* Icons */
+i {
+    font-size: 2rem; color: #88553d;
+}
+
+/* Navigation bar */
+.navbar {
+    background-color: #88553D;
+    font-family: 'Fredoka One', cursive;
+    padding-left: 1rem;
+}
+
+/* 404 Page */
+#error404 {
+    margin-top: 6rem;
+    text-align: center;
+    background: none;
+}
+
+/* Carousel */
 #jumboCarousel {
     margin-top: 4rem;
 }
@@ -63,10 +91,12 @@ a:hover {
     color: white;
 }
 
+/* CTA Button */
 .btn {
     background-color: #88553D;
     color: white;
     border: #88553D;
+    border-radius: 2rem;
 }
 
 .btn:hover {
@@ -77,34 +107,16 @@ a:hover {
 #placeOrder {
     padding-top: 3rem;
     padding-bottom: 3rem;
-}
-
-h1, h2 {
-    background: rgba(255,228,196,0.3);
-    text-align: center;
-    font-family: 'Fredoka One', cursive;
-}
-
-h3 {
-    font-family: 'Fredoka One', cursive;
-}
-
-h1 {
-    text-decoration: wavy underline overline #ED91AD;
-}
-
-h5 {
     text-align: center;
 }
 
+
+/* Menu */
 #menuGrid {
     margin: 2rem 4rem ;
 }
 
-i {
-    font-size: 2rem; color: #88553d;
-}
-
+/* About */
 #aboutUs {
     background-color: #F9FBFA;
     text-align: center;
@@ -120,11 +132,16 @@ i {
     object-fit: scale-down;
 }
 
+#aboutText {
+    padding: 0rem 5rem;
+}
+
 #features {
     background-color: #F9FBFA;
     padding: 3rem;
 }
 
+/* Footer */
 footer {
     box-sizing: border-box;
     display: block;
