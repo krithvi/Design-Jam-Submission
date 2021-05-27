@@ -208,6 +208,11 @@ i {
     margin: 2rem 4rem ;
 }
 
+.card-footer {
+    color: white;
+    background-color: rgba(136, 85, 61,0.8);
+}
+
 /* About */
 #aboutUs {
     background-color: #F9FBFA;
