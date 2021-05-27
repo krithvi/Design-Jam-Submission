@@ -134,13 +134,32 @@ i {
 }
 
 /* Carousel */
+#carousel-section {
+    position: relative;
+    width: 100vw;
+    height: 73vh;
+}
+
 #jumboCarousel {
+    position: relative;
+    height: 100%;
     margin-top: 4rem;
 }
 
-#jumboCarousel >.carousel-item {
-    height: 80vh;
+#jumboCarousel .carousel-inner {
+    position: relative;
+    height: 100%;
 }
+
+#jumboCarousel .carousel-item {
+    max-width: 100vw;
+    max-height: 100vh;
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 #jumboCarousel > .carousel-indicators > li {
     border-radius: 0rem;
     min-width: 5rem;
@@ -153,10 +172,9 @@ i {
 #jumboCarousel .carousel-caption {
     color: black;
     text-align: center;
-    align-self: center;
-    max-width: 25rem;
     height: fit-content;
     background: rgba(255,228,196,0.7);
+    top: 12vh;
     padding: 2.5rem;
 }
 
@@ -177,7 +195,8 @@ i {
     color: white;
 }
 
-#placeOrder {
+#orderNow {
+    position: relative;
     padding-top: 3rem;
     padding-bottom: 3rem;
     text-align: center;

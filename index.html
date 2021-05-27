@@ -70,7 +70,7 @@
 
         <a name="top"></a>
         <!--Carousel-->
-        <div class="container-fluid">
+        <div class="container-fluid" id="carousel-section">
           <div id="jumboCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#jumboCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -78,25 +78,22 @@
               <button type="button" data-bs-target="#jumboCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="images/slide1.png" class="d-block w-100" alt="Donut in Pink glove">
-                <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-item active" style="background-image: url(images/slide1.png);">
+                <div class="carousel-caption" id="slide1">
                   <h4>Delicious Donuts made with Safety in Mind</h4> 
                   <p>We bake our donuts germ-free so you can enjoy them worry-free.<br><a href="https://unsplash.com/photos/faqm2syfUIE">Photo</a> by Elena Koycheva on Unsplash</p>
                   <a href="#menu" class="btn btn-lg btn-outline-primary btn-sm">See Menu</a>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="images/slide2.png" class="d-block w-100" alt="Donuts with friends">
-                <div class="carousel-caption d-none d-md-block" id="slide2">
+              <div class="carousel-item" style="background-image: url(images/slide2.png);">
+                <div class="carousel-caption" id="slide2">
                   <h4>Share the Joy of [Donut] Giving with your Loved Ones</h4>
                   <p>Gift orders to your friends. <br> <a href="https://unsplash.com/photos/peFEjuzDfQA">Photo</a> by Tu Trinh on Unsplash</p>
                   <a href="#menu" class="btn btn-lg btn-outline-primary btn-sm">See Menu</a>
                 </div>
               </div>
-              <div class="carousel-item">
-                <img src="images/slide3.png" class="d-block w-100" alt="Donuts closeup">
-                <div class="carousel-caption d-none d-md-block" id="slide1">
+              <div class="carousel-item" style="background-image: url(images/slide3.png);">
+                <div class="carousel-caption" id="slide3">
                   <h4>Happiness does come in Small Packages</h4>
                   <p>Try our new Mini-Donut Bunches today!<br><a href="https://www.pexels.com/photo/close-up-photo-of-chocolate-doughnuts-1591180/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels">Photo</a> by Kristina Paukshtite from Pexels</p>
                   <a href="#menu" class="btn btn-lg btn-outline-primary btn-sm">See Menu</a>
@@ -115,8 +112,8 @@
         </div>
 
         <div class="container-fluid">
-          <div id="placeOrder" class="d-sm-flex justify-content-sm-center">
-            <button class="btn btn-primary btn-lg" type="button">Place Order</button>
+          <div id="orderNow" class="d-sm-flex justify-content-sm-center">
+            <button class="btn btn-primary btn-lg" type="button">Order Now</button>
           </div>
         </div>
 
@@ -194,8 +191,8 @@
         </div>
 
         <div class="container-fluid">
-          <div id="placeOrder" class="d-sm-flex justify-content-sm-center">
-            <button class="btn btn-primary btn-lg" type="button">Place Order</button>
+          <div id="orderNow" class="d-sm-flex justify-content-sm-center">
+            <button class="btn btn-primary btn-lg btn-block" type="button">Order Now</button>
           </div>
         </div>
         <br>
@@ -206,9 +203,9 @@
         <div id="aboutUs" class="container-fluid">
           <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
             <div id="aboutImg" class="mx-auto col-lg-6">
-              <img src="images/d0nut-grid.png" alt="Much Donuts" width="400" height="300">
+              <img src="images/d0nut-grid.png" alt="Much Donuts" width="300" height="300">
             </div>
-            <div id="aboutText" class="col-lg-6 mx-auto" data-aos="zoom-out-left">
+            <div id="aboutText" class="col-lg-6 mx-auto" data-aos="fade-left">
               <h3>Donut Hub</h3>
               <h5>All you need are Donuts</h5> <br>
               <p>Established during the early Lockdown years of 21st century, we are an online store for Donuts delivered straight to your homes. <br>We really wanted donuts but couldn't find best quality donuts at affordable prices near us. So we initiated <b>"Donut Hub"</b> to fill the donut shaped void in our lives and we invite you in this venture to satiate your donut cravings.</p>
@@ -218,7 +215,7 @@
         </div>
         <!--Features grid-->
         <div id="features" class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="col d-flex align-items-start" data-aos="fade-up">
+          <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1000">
             <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
               <i class="bi bi-box-seam"></i>
             </div>
@@ -227,7 +224,7 @@
               <p>Our donuts are made from 100% organic ingredients always.</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start" data-aos="fade-up">
+          <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1000">
             <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
               <i class="bi bi-hourglass-split" style="font-size: 2rem; color: #88553d;"></i>
             </div>
@@ -236,7 +233,7 @@
               <p>Our lightning fast delivery can satiate your cravings anytime.</p>
             </div>
           </div>
-          <div class="col d-flex align-items-start" data-aos="fade-up">
+          <div class="col d-flex align-items-start" data-aos="fade-up" data-aos-duration="1000">
             <div class="icon-square bg-light text-dark flex-shrink-0 me-3">
               <i class="bi bi-cash-coin" style="font-size: 2rem; color: #88553d;"></i>
             </div>
