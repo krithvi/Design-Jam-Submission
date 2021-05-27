@@ -1,6 +1,6 @@
 html {
     min-height: 100%;
-    background: url("../images/pexels-dominika-roseclay-donuts.jpeg");
+    background: url("../images/background-donut.jpeg");
     background-size: cover; 
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -32,16 +32,17 @@ body {
     text-align: center;
     color: #F9FBFA;
     position: relative;
-    top: 45vh;
+    top: 40vh;
 }
 
 #loader {
     display: block;
     position: relative;
-    left: 40%;
+    left: 50%;
     top: 50vh;
     width: 9.375rem;
-    height: auto;
+    height: 9.375rem;
+    margin: -4rem 0 0 -4rem;
 }
 
 #loader img {
