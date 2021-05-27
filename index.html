@@ -55,6 +55,17 @@
               </div>
             </div>
         </nav>
+
+        <div id="loader-wrapper">
+          <div id="load-text">
+            <h3>Adding sprinkles to our donuts..</h3>
+          </div>
+          <div id="loader">
+            <img src="images/load-donut.png" alt="Loading..">
+          </div>
+        </div>
+
+
         <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
 
         <a name="top"></a>
@@ -194,10 +205,10 @@
         <h1>About Us</h1> <br>
         <div id="aboutUs" class="container-fluid">
           <div class="row g-5 py-5 row-cols-1 row-cols-lg-2">
-            <div id="aboutImg" class="d-block mx-auto col-lg-6">
+            <div id="aboutImg" class="mx-auto col-lg-6">
               <img src="images/d0nut-grid.png" alt="Much Donuts" width="400" height="300">
             </div>
-            <div id="aboutText" class="col-lg-6 mx-auto">
+            <div id="aboutText" class="col-lg-6 mx-auto" data-aos="zoom-out-left">
               <h3>Donut Hub</h3>
               <h5>All you need are Donuts</h5> <br>
               <p>Established during the early Lockdown years of 21st century, we are an online store for Donuts delivered straight to your homes. <br>We really wanted donuts but couldn't find best quality donuts at affordable prices near us. So we initiated <b>"Donut Hub"</b> to fill the donut shaped void in our lives and we invite you in this venture to satiate your donut cravings.</p>
@@ -253,7 +264,16 @@
 
         <!--JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
+
+        <!--Preloader JS-->
+        <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+        <script>
+          imagesLoaded( document.querySelector('body'), function( imgLoad ) {
+            console.log('all images are loaded');
+            document.body.classList.add("loaded");
+          });
+        </script>
 
         <!--Animation Script-->
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
